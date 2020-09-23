@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\program files\Recipe1
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao360.dll=
+C:\WINDOWS\SYSTEM32\dao360.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\Mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Recipe.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\Mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Setup\Support\Recipe.exe=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Recipe.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\All Users\Desktop\VB\Recipe's Database\Recipe.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao360.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Setup\Support\Recipe.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Recipe.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\All Users\Desktop\VB\Recipe's Database\Recipe.exe=No
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Setup\Support\Recipe.exe=No
+C:\Documents and Settings\Default\Desktop\VB\Recipe's Database\Recipe.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Recipe1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=$(Start Menu)
+PrivateGroup0=True
+Parent0=
+
+[Package|Standard Setup Package 1|$(Start Menu)]
+Icon1=Recipe.exe
+Title1=Kelli's Recipes
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\program files\Recipe1
+ProjectFolder=C:\Documents and Settings\Default\Desktop\VB\Recipe's Database
+ServerSideCab=
+File1=C:\program files\Recipe1\setup.exe
+File2=C:\program files\Recipe1\Setup.Lst
+File3=C:\program files\Recipe1\Recipe1.CAB
+File4=C:\program files\Recipe1\Recipe2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
